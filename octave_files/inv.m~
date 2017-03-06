@@ -1,0 +1,29 @@
+stop=imread('stop1.jpg');
+stop_gray=rgb2gray(stop);
+stop_invmoments=invmoments(stop_gray);
+
+left=imread('left1.jpg');
+left_gray=rgb2gray(left);
+left_invmoments=invmoments(left_gray);
+
+right=imread('right1.jpg');
+right_gray=rgb2gray(right);
+right_invmoments=invmoments(right_gray);
+
+forty=imread('40-1.jpg');
+forty_gray=rgb2gray(forty);
+forty_invmoments=invmoments(forty_gray);
+
+inter=imread('tintersection1.jpg');
+inter_gray=rgb2gray(inter);
+inter_invmoments=invmoments(inter_gray);
+printf("stop sign moments\n");
+disp(stop_invmoments);
+printf("left sign moments\n");
+disp(left_invmoments);
+printf("right sign moments\n");
+disp(right_invmoments);
+printf("forty sign moments\n");
+disp(forty_invmoments);
+printf("t intersection moments\n");
+disp(inter_invmoments);
