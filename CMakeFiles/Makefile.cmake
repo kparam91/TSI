@@ -47,5 +47,5 @@ SET(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 SET(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Histogram.dir/DependInfo.cmake"
+  "CMakeFiles/Covariance.dir/DependInfo.cmake"
   )

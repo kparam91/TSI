@@ -116,7 +116,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Histogram
+CMAKE_PROJECT_NAME:STATIC=Covariance
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -267,6 +267,12 @@ CUDA_nppi_LIBRARY:FILEPATH=/usr/local/cuda-6.5/lib64/libnppi.so
 CUDA_npps_LIBRARY:FILEPATH=/usr/local/cuda-6.5/lib64/libnpps.so
 
 //Value Computed by CMake
+Covariance_BINARY_DIR:STATIC=/home/kp/CMPE295
+
+//Value Computed by CMake
+Covariance_SOURCE_DIR:STATIC=/home/kp/CMPE295
+
+//Value Computed by CMake
 Histogram_BINARY_DIR:STATIC=/home/kp/CMPE295
 
 //Value Computed by CMake
@@ -300,6 +306,12 @@ Raw_moments_BINARY_DIR:STATIC=/home/kp/CMPE295
 
 //Value Computed by CMake
 Raw_moments_SOURCE_DIR:STATIC=/home/kp/CMPE295
+
+//Value Computed by CMake
+karthik_BINARY_DIR:STATIC=/home/kp/CMPE295
+
+//Value Computed by CMake
+karthik_SOURCE_DIR:STATIC=/home/kp/CMPE295
 
 
 ########################

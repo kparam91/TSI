@@ -102,41 +102,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Histogram
+# Target rules for targets named Covariance
 
 # Build rule for target.
-Histogram: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Histogram
-.PHONY : Histogram
+Covariance: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Covariance
+.PHONY : Covariance
 
 # fast build rule for target.
-Histogram/fast:
-	$(MAKE) -f CMakeFiles/Histogram.dir/build.make CMakeFiles/Histogram.dir/build
-.PHONY : Histogram/fast
+Covariance/fast:
+	$(MAKE) -f CMakeFiles/Covariance.dir/build.make CMakeFiles/Covariance.dir/build
+.PHONY : Covariance/fast
 
-Histogram.o: Histogram.cpp.o
-.PHONY : Histogram.o
+Covariance.o: Covariance.cpp.o
+.PHONY : Covariance.o
 
 # target to build an object file
-Histogram.cpp.o:
-	$(MAKE) -f CMakeFiles/Histogram.dir/build.make CMakeFiles/Histogram.dir/Histogram.cpp.o
-.PHONY : Histogram.cpp.o
+Covariance.cpp.o:
+	$(MAKE) -f CMakeFiles/Covariance.dir/build.make CMakeFiles/Covariance.dir/Covariance.cpp.o
+.PHONY : Covariance.cpp.o
 
-Histogram.i: Histogram.cpp.i
-.PHONY : Histogram.i
+Covariance.i: Covariance.cpp.i
+.PHONY : Covariance.i
 
 # target to preprocess a source file
-Histogram.cpp.i:
-	$(MAKE) -f CMakeFiles/Histogram.dir/build.make CMakeFiles/Histogram.dir/Histogram.cpp.i
-.PHONY : Histogram.cpp.i
+Covariance.cpp.i:
+	$(MAKE) -f CMakeFiles/Covariance.dir/build.make CMakeFiles/Covariance.dir/Covariance.cpp.i
+.PHONY : Covariance.cpp.i
 
-Histogram.s: Histogram.cpp.s
-.PHONY : Histogram.s
+Covariance.s: Covariance.cpp.s
+.PHONY : Covariance.s
 
 # target to generate assembly for a file
-Histogram.cpp.s:
-	$(MAKE) -f CMakeFiles/Histogram.dir/build.make CMakeFiles/Histogram.dir/Histogram.cpp.s
-.PHONY : Histogram.cpp.s
+Covariance.cpp.s:
+	$(MAKE) -f CMakeFiles/Covariance.dir/build.make CMakeFiles/Covariance.dir/Covariance.cpp.s
+.PHONY : Covariance.cpp.s
 
 # Help Target
 help:
@@ -144,12 +144,12 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... Histogram"
+	@echo "... Covariance"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Histogram.o"
-	@echo "... Histogram.i"
-	@echo "... Histogram.s"
+	@echo "... Covariance.o"
+	@echo "... Covariance.i"
+	@echo "... Covariance.s"
 .PHONY : help
 
 

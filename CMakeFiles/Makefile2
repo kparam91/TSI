@@ -56,38 +56,38 @@ CMAKE_SOURCE_DIR = /home/kp/CMPE295
 CMAKE_BINARY_DIR = /home/kp/CMPE295
 
 #=============================================================================
-# Target rules for target CMakeFiles/Histogram.dir
+# Target rules for target CMakeFiles/Covariance.dir
 
 # All Build rule for target.
-CMakeFiles/Histogram.dir/all:
-	$(MAKE) -f CMakeFiles/Histogram.dir/build.make CMakeFiles/Histogram.dir/depend
-	$(MAKE) -f CMakeFiles/Histogram.dir/build.make CMakeFiles/Histogram.dir/build
+CMakeFiles/Covariance.dir/all:
+	$(MAKE) -f CMakeFiles/Covariance.dir/build.make CMakeFiles/Covariance.dir/depend
+	$(MAKE) -f CMakeFiles/Covariance.dir/build.make CMakeFiles/Covariance.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/kp/CMPE295/CMakeFiles  1
-	@echo "Built target Histogram"
-.PHONY : CMakeFiles/Histogram.dir/all
+	@echo "Built target Covariance"
+.PHONY : CMakeFiles/Covariance.dir/all
 
 # Include target in all.
-all: CMakeFiles/Histogram.dir/all
+all: CMakeFiles/Covariance.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Histogram.dir/rule: cmake_check_build_system
+CMakeFiles/Covariance.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kp/CMPE295/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Histogram.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Covariance.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kp/CMPE295/CMakeFiles 0
-.PHONY : CMakeFiles/Histogram.dir/rule
+.PHONY : CMakeFiles/Covariance.dir/rule
 
 # Convenience name for target.
-Histogram: CMakeFiles/Histogram.dir/rule
-.PHONY : Histogram
+Covariance: CMakeFiles/Covariance.dir/rule
+.PHONY : Covariance
 
 # clean rule for target.
-CMakeFiles/Histogram.dir/clean:
-	$(MAKE) -f CMakeFiles/Histogram.dir/build.make CMakeFiles/Histogram.dir/clean
-.PHONY : CMakeFiles/Histogram.dir/clean
+CMakeFiles/Covariance.dir/clean:
+	$(MAKE) -f CMakeFiles/Covariance.dir/build.make CMakeFiles/Covariance.dir/clean
+.PHONY : CMakeFiles/Covariance.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/Histogram.dir/clean
+clean: CMakeFiles/Covariance.dir/clean
 .PHONY : clean
 
 #=============================================================================
