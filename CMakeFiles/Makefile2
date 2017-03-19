@@ -56,38 +56,38 @@ CMAKE_SOURCE_DIR = /home/kp/CMPE295
 CMAKE_BINARY_DIR = /home/kp/CMPE295
 
 #=============================================================================
-# Target rules for target CMakeFiles/Covariance.dir
+# Target rules for target CMakeFiles/Entropy.dir
 
 # All Build rule for target.
-CMakeFiles/Covariance.dir/all:
-	$(MAKE) -f CMakeFiles/Covariance.dir/build.make CMakeFiles/Covariance.dir/depend
-	$(MAKE) -f CMakeFiles/Covariance.dir/build.make CMakeFiles/Covariance.dir/build
+CMakeFiles/Entropy.dir/all:
+	$(MAKE) -f CMakeFiles/Entropy.dir/build.make CMakeFiles/Entropy.dir/depend
+	$(MAKE) -f CMakeFiles/Entropy.dir/build.make CMakeFiles/Entropy.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/kp/CMPE295/CMakeFiles  1
-	@echo "Built target Covariance"
-.PHONY : CMakeFiles/Covariance.dir/all
+	@echo "Built target Entropy"
+.PHONY : CMakeFiles/Entropy.dir/all
 
 # Include target in all.
-all: CMakeFiles/Covariance.dir/all
+all: CMakeFiles/Entropy.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Covariance.dir/rule: cmake_check_build_system
+CMakeFiles/Entropy.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kp/CMPE295/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Covariance.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Entropy.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kp/CMPE295/CMakeFiles 0
-.PHONY : CMakeFiles/Covariance.dir/rule
+.PHONY : CMakeFiles/Entropy.dir/rule
 
 # Convenience name for target.
-Covariance: CMakeFiles/Covariance.dir/rule
-.PHONY : Covariance
+Entropy: CMakeFiles/Entropy.dir/rule
+.PHONY : Entropy
 
 # clean rule for target.
-CMakeFiles/Covariance.dir/clean:
-	$(MAKE) -f CMakeFiles/Covariance.dir/build.make CMakeFiles/Covariance.dir/clean
-.PHONY : CMakeFiles/Covariance.dir/clean
+CMakeFiles/Entropy.dir/clean:
+	$(MAKE) -f CMakeFiles/Entropy.dir/build.make CMakeFiles/Entropy.dir/clean
+.PHONY : CMakeFiles/Entropy.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/Covariance.dir/clean
+clean: CMakeFiles/Entropy.dir/clean
 .PHONY : clean
 
 #=============================================================================

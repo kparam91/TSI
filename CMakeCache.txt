@@ -116,7 +116,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Covariance
+CMAKE_PROJECT_NAME:STATIC=Entropy
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -273,6 +273,12 @@ Covariance_BINARY_DIR:STATIC=/home/kp/CMPE295
 Covariance_SOURCE_DIR:STATIC=/home/kp/CMPE295
 
 //Value Computed by CMake
+Entropy_BINARY_DIR:STATIC=/home/kp/CMPE295
+
+//Value Computed by CMake
+Entropy_SOURCE_DIR:STATIC=/home/kp/CMPE295
+
+//Value Computed by CMake
 Histogram_BINARY_DIR:STATIC=/home/kp/CMPE295
 
 //Value Computed by CMake
@@ -306,6 +312,12 @@ Raw_moments_BINARY_DIR:STATIC=/home/kp/CMPE295
 
 //Value Computed by CMake
 Raw_moments_SOURCE_DIR:STATIC=/home/kp/CMPE295
+
+//Value Computed by CMake
+VideoCap_BINARY_DIR:STATIC=/home/kp/CMPE295
+
+//Value Computed by CMake
+VideoCap_SOURCE_DIR:STATIC=/home/kp/CMPE295
 
 //Value Computed by CMake
 karthik_BINARY_DIR:STATIC=/home/kp/CMPE295

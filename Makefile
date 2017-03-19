@@ -102,41 +102,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Covariance
+# Target rules for targets named Entropy
 
 # Build rule for target.
-Covariance: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Covariance
-.PHONY : Covariance
+Entropy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Entropy
+.PHONY : Entropy
 
 # fast build rule for target.
-Covariance/fast:
-	$(MAKE) -f CMakeFiles/Covariance.dir/build.make CMakeFiles/Covariance.dir/build
-.PHONY : Covariance/fast
+Entropy/fast:
+	$(MAKE) -f CMakeFiles/Entropy.dir/build.make CMakeFiles/Entropy.dir/build
+.PHONY : Entropy/fast
 
-Covariance.o: Covariance.cpp.o
-.PHONY : Covariance.o
+Entropy.o: Entropy.cpp.o
+.PHONY : Entropy.o
 
 # target to build an object file
-Covariance.cpp.o:
-	$(MAKE) -f CMakeFiles/Covariance.dir/build.make CMakeFiles/Covariance.dir/Covariance.cpp.o
-.PHONY : Covariance.cpp.o
+Entropy.cpp.o:
+	$(MAKE) -f CMakeFiles/Entropy.dir/build.make CMakeFiles/Entropy.dir/Entropy.cpp.o
+.PHONY : Entropy.cpp.o
 
-Covariance.i: Covariance.cpp.i
-.PHONY : Covariance.i
+Entropy.i: Entropy.cpp.i
+.PHONY : Entropy.i
 
 # target to preprocess a source file
-Covariance.cpp.i:
-	$(MAKE) -f CMakeFiles/Covariance.dir/build.make CMakeFiles/Covariance.dir/Covariance.cpp.i
-.PHONY : Covariance.cpp.i
+Entropy.cpp.i:
+	$(MAKE) -f CMakeFiles/Entropy.dir/build.make CMakeFiles/Entropy.dir/Entropy.cpp.i
+.PHONY : Entropy.cpp.i
 
-Covariance.s: Covariance.cpp.s
-.PHONY : Covariance.s
+Entropy.s: Entropy.cpp.s
+.PHONY : Entropy.s
 
 # target to generate assembly for a file
-Covariance.cpp.s:
-	$(MAKE) -f CMakeFiles/Covariance.dir/build.make CMakeFiles/Covariance.dir/Covariance.cpp.s
-.PHONY : Covariance.cpp.s
+Entropy.cpp.s:
+	$(MAKE) -f CMakeFiles/Entropy.dir/build.make CMakeFiles/Entropy.dir/Entropy.cpp.s
+.PHONY : Entropy.cpp.s
 
 # Help Target
 help:
@@ -144,12 +144,12 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... Covariance"
+	@echo "... Entropy"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Covariance.o"
-	@echo "... Covariance.i"
-	@echo "... Covariance.s"
+	@echo "... Entropy.o"
+	@echo "... Entropy.i"
+	@echo "... Entropy.s"
 .PHONY : help
 
 
