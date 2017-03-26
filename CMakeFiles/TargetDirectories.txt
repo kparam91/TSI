@@ -1,1 +1,1 @@
-/home/kp/CMPE295/CMakeFiles/Entropy.dir
+/home/kp/CMPE295/CMakeFiles/VideoCapture.dir

@@ -56,38 +56,38 @@ CMAKE_SOURCE_DIR = /home/kp/CMPE295
 CMAKE_BINARY_DIR = /home/kp/CMPE295
 
 #=============================================================================
-# Target rules for target CMakeFiles/Entropy.dir
+# Target rules for target CMakeFiles/VideoCapture.dir
 
 # All Build rule for target.
-CMakeFiles/Entropy.dir/all:
-	$(MAKE) -f CMakeFiles/Entropy.dir/build.make CMakeFiles/Entropy.dir/depend
-	$(MAKE) -f CMakeFiles/Entropy.dir/build.make CMakeFiles/Entropy.dir/build
+CMakeFiles/VideoCapture.dir/all:
+	$(MAKE) -f CMakeFiles/VideoCapture.dir/build.make CMakeFiles/VideoCapture.dir/depend
+	$(MAKE) -f CMakeFiles/VideoCapture.dir/build.make CMakeFiles/VideoCapture.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/kp/CMPE295/CMakeFiles  1
-	@echo "Built target Entropy"
-.PHONY : CMakeFiles/Entropy.dir/all
+	@echo "Built target VideoCapture"
+.PHONY : CMakeFiles/VideoCapture.dir/all
 
 # Include target in all.
-all: CMakeFiles/Entropy.dir/all
+all: CMakeFiles/VideoCapture.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Entropy.dir/rule: cmake_check_build_system
+CMakeFiles/VideoCapture.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kp/CMPE295/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Entropy.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/VideoCapture.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kp/CMPE295/CMakeFiles 0
-.PHONY : CMakeFiles/Entropy.dir/rule
+.PHONY : CMakeFiles/VideoCapture.dir/rule
 
 # Convenience name for target.
-Entropy: CMakeFiles/Entropy.dir/rule
-.PHONY : Entropy
+VideoCapture: CMakeFiles/VideoCapture.dir/rule
+.PHONY : VideoCapture
 
 # clean rule for target.
-CMakeFiles/Entropy.dir/clean:
-	$(MAKE) -f CMakeFiles/Entropy.dir/build.make CMakeFiles/Entropy.dir/clean
-.PHONY : CMakeFiles/Entropy.dir/clean
+CMakeFiles/VideoCapture.dir/clean:
+	$(MAKE) -f CMakeFiles/VideoCapture.dir/build.make CMakeFiles/VideoCapture.dir/clean
+.PHONY : CMakeFiles/VideoCapture.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/Entropy.dir/clean
+clean: CMakeFiles/VideoCapture.dir/clean
 .PHONY : clean
 
 #=============================================================================

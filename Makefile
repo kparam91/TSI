@@ -102,41 +102,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Entropy
+# Target rules for targets named VideoCapture
 
 # Build rule for target.
-Entropy: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Entropy
-.PHONY : Entropy
+VideoCapture: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 VideoCapture
+.PHONY : VideoCapture
 
 # fast build rule for target.
-Entropy/fast:
-	$(MAKE) -f CMakeFiles/Entropy.dir/build.make CMakeFiles/Entropy.dir/build
-.PHONY : Entropy/fast
+VideoCapture/fast:
+	$(MAKE) -f CMakeFiles/VideoCapture.dir/build.make CMakeFiles/VideoCapture.dir/build
+.PHONY : VideoCapture/fast
 
-Entropy.o: Entropy.cpp.o
-.PHONY : Entropy.o
+VideoCapture.o: VideoCapture.cpp.o
+.PHONY : VideoCapture.o
 
 # target to build an object file
-Entropy.cpp.o:
-	$(MAKE) -f CMakeFiles/Entropy.dir/build.make CMakeFiles/Entropy.dir/Entropy.cpp.o
-.PHONY : Entropy.cpp.o
+VideoCapture.cpp.o:
+	$(MAKE) -f CMakeFiles/VideoCapture.dir/build.make CMakeFiles/VideoCapture.dir/VideoCapture.cpp.o
+.PHONY : VideoCapture.cpp.o
 
-Entropy.i: Entropy.cpp.i
-.PHONY : Entropy.i
+VideoCapture.i: VideoCapture.cpp.i
+.PHONY : VideoCapture.i
 
 # target to preprocess a source file
-Entropy.cpp.i:
-	$(MAKE) -f CMakeFiles/Entropy.dir/build.make CMakeFiles/Entropy.dir/Entropy.cpp.i
-.PHONY : Entropy.cpp.i
+VideoCapture.cpp.i:
+	$(MAKE) -f CMakeFiles/VideoCapture.dir/build.make CMakeFiles/VideoCapture.dir/VideoCapture.cpp.i
+.PHONY : VideoCapture.cpp.i
 
-Entropy.s: Entropy.cpp.s
-.PHONY : Entropy.s
+VideoCapture.s: VideoCapture.cpp.s
+.PHONY : VideoCapture.s
 
 # target to generate assembly for a file
-Entropy.cpp.s:
-	$(MAKE) -f CMakeFiles/Entropy.dir/build.make CMakeFiles/Entropy.dir/Entropy.cpp.s
-.PHONY : Entropy.cpp.s
+VideoCapture.cpp.s:
+	$(MAKE) -f CMakeFiles/VideoCapture.dir/build.make CMakeFiles/VideoCapture.dir/VideoCapture.cpp.s
+.PHONY : VideoCapture.cpp.s
 
 # Help Target
 help:
@@ -144,12 +144,12 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... Entropy"
+	@echo "... VideoCapture"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Entropy.o"
-	@echo "... Entropy.i"
-	@echo "... Entropy.s"
+	@echo "... VideoCapture.o"
+	@echo "... VideoCapture.i"
+	@echo "... VideoCapture.s"
 .PHONY : help
 
 
