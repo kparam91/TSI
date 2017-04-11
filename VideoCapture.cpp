@@ -20,7 +20,7 @@ VideoCapture source=VideoCapture();
 static void onMouse(int event, int x, int y, int, void* ){
 
 if( event == EVENT_LBUTTONUP ){
-		//source.get(CAP_PROP_POS_FRAMES);
+		source.get(CAP_PROP_POS_FRAMES);
 		waitKey(0);
 		imshow("Video", frame);
 		pos =getTrackbarPos("seek", "Video");
